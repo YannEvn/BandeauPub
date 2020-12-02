@@ -41,7 +41,7 @@ public class ExempleDUtilisation {
 	monBandeau.setMessage("On tourne...");
 	for (int i = 0; i <= 100; i++) {
 		monBandeau.setRotation(2*Math.PI*i / 100);
-		monBandeau.sleep(100);
+		monBandeau.sleep(50);
 	}
 
 	monBandeau.setMessage("On va changer de couleur de fond");
